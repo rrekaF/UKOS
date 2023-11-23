@@ -1,0 +1,14 @@
+1. rm /var/log *.gz
+2. mkdir -vp Ola/Szkola Ola/Praca >> ../katalogi.txt
+   mkdir -vp Ala/Szkola Ala/Praca >> ../katalogi.txt
+3. cp /etc/*.conf ~/kopia/ 2> Errors/error.copy.txt
+4. cat dane.csv |awk '{print $3, $5}' | sort -k 2,2 -nr | head -n 15
+   cat ../../../2022/12/23/dane.csv |awk '{print $3, $5}' | sort -k 2,2 -nr | head -n 15
+5. chmod u+x [0-9]*.sh
+6. ls -lha /dev
+7. cat application.log | grep -i info | tail -30
+8. cat application.log | grep -iv error | wc -l
+9. kill PID (?)
+10. free >> /tmp/usage.txt
+    df >> /tmp/usage.txt	
+    uptime >> /tmp/usage.txt
