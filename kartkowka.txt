@@ -8,7 +8,7 @@
 6. ls -lha /dev
 7. cat application.log | grep -i info | tail -30
 8. cat application.log | grep -iv error | wc -l
-9. kill PID (?)
+9. ps -ef (wszystkie procesy) + kill PID (?)
 10. free >> /tmp/usage.txt
     df >> /tmp/usage.txt	
     uptime >> /tmp/usage.txt
